@@ -1,0 +1,64 @@
+{
+    "test_cases": [
+        {
+            "id": 1,
+            "time_out": 4,
+            "input": "3\nABC\n1\n70\n80\naBD\n2\n75\n85\nXYZ\n3\n40\n50\n1\na\n",
+            "output": "Enter the number of students: Student 1\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 2\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 3\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nThis program supports TWO operations:\n\t1. Count the number of names starting with a given character,\n\t2. Sort the students based on descending order of total marks.\n\nChoose an operation (1 or 2): Enter a character: The number of names starting with character a: 2\n"
+        },
+        {
+            "id": 2,
+            "time_out": 4,
+            "input": "3\nABC\n1\n70\n80\naBD\n2\n75\n85\nXYZ\n3\n40\n50\n1\nY\n",
+            "output": "Enter the number of students: Student 1\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 2\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 3\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nThis program supports TWO operations:\n\t1. Count the number of names starting with a given character,\n\t2. Sort the students based on descending order of total marks.\n\nChoose an operation (1 or 2): Enter a character: The number of names starting with character Y: 0\n"
+        },
+        {
+            "id": 3,
+            "time_out": 4,
+            "input": "5\nYBC\n1\n70\n80\nyBD\n2\n75\n85\nYYZ\n3\n40\n50\nyYZ\n4\n40\n10\nY123456789123456789\n5\n44\n54\n1\ny\n",
+            "output": "Enter the number of students: Student 1\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 2\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 3\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 4\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 5\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nThis program supports TWO operations:\n\t1. Count the number of names starting with a given character,\n\t2. Sort the students based on descending order of total marks.\n\nChoose an operation (1 or 2): Enter a character: The number of names starting with character y: 5\n"
+        },
+        {
+            "id": 4,
+            "time_out": 4,
+            "input": "3\nABC\n1\n70\n80\naBD\n2\n75\n85\nXYZ\n3\n40\n50\n2\n",
+            "output": "Enter the number of students: Student 1\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 2\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 3\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nThis program supports TWO operations:\n\t1. Count the number of names starting with a given character,\n\t2. Sort the students based on descending order of total marks.\n\nChoose an operation (1 or 2): 2 1 3 \n2 1 3 \naBD ABC XYZ \nThe highest marks: 160\n"
+        },
+        {
+            "id": 5,
+            "time_out": 4,
+            "input": "4\nABC\n1\n70\n80\nXYZ\n2\n60\n60\nCSF\n3\n100\n100\nPQR\n4\n40\n90\n2\n",
+            "output": "Enter the number of students: Student 1\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 2\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 3\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 4\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nThis program supports TWO operations:\n\t1. Count the number of names starting with a given character,\n\t2. Sort the students based on descending order of total marks.\n\nChoose an operation (1 or 2): 1 2 3 4 \n3 1 2 4 \n3 1 4 2 \nCSF ABC PQR XYZ \nThe highest marks: 200\n"
+        },
+        {
+            "id": 6,
+            "time_out": 4,
+            "input": "5\nYBC\n1\n70\n80\nyBD\n2\n75\n85\nYYZ\n3\n40\n50\nyYZ\n4\n40\n10\nY123456789123456789\n5\n44\n54\n2\n",
+            "output": "Enter the number of students: Student 1\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 2\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 3\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 4\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 5\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nThis program supports TWO operations:\n\t1. Count the number of names starting with a given character,\n\t2. Sort the students based on descending order of total marks.\n\nChoose an operation (1 or 2): 2 1 3 4 5 \n2 1 3 4 5 \n2 1 3 4 5 \n2 1 5 3 4 \nyBD YBC Y123456789123456789 YYZ yYZ \nThe highest marks: 160\n"
+        },
+        {
+            "id": 7,
+            "time_out": 4,
+            "input": "5\nY123456789123456780\n1\n40\n10\nY123456789123456781\n2\n40\n50\nY123456789123456782\n3\n41\n50\nY123456789123456783\n4\n70\n80\nY123456789123456789\n5\n75\n85\n2\n",
+            "output": "Enter the number of students: Student 1\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 2\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 3\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 4\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 5\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nThis program supports TWO operations:\n\t1. Count the number of names starting with a given character,\n\t2. Sort the students based on descending order of total marks.\n\nChoose an operation (1 or 2): 2 1 3 4 5 \n3 2 1 4 5 \n4 3 2 1 5 \n5 4 3 2 1 \nY123456789123456789 Y123456789123456783 Y123456789123456782 Y123456789123456781 Y123456789123456780 \nThe highest marks: 160\n"
+        },
+        {
+            "id": 8,
+            "time_out": 4,
+            "input": "5\nY123456789123456780\n1\n40\n10\nY123456789123456781\n2\n40\n11\nY123456789123456782\n3\n40\n12\nY123456789123456783\n4\n40\n13\nY123456789123456789\n5\n40\n14\n2\n",
+            "output": "Enter the number of students: Student 1\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 2\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 3\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 4\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 5\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nThis program supports TWO operations:\n\t1. Count the number of names starting with a given character,\n\t2. Sort the students based on descending order of total marks.\n\nChoose an operation (1 or 2): 2 1 3 4 5 \n3 2 1 4 5 \n4 3 2 1 5 \n5 4 3 2 1 \nY123456789123456789 Y123456789123456783 Y123456789123456782 Y123456789123456781 Y123456789123456780 \nThe highest marks: 54\n"
+        },
+        {
+            "id": 9,
+            "time_out": 4,
+            "input": "1\nY123456789123456780\n1\n40\n10\n2\n",
+            "output": "Enter the number of students: Student 1\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nThis program supports TWO operations:\n\t1. Count the number of names starting with a given character,\n\t2. Sort the students based on descending order of total marks.\n\nChoose an operation (1 or 2): Y123456789123456780 \nThe highest marks: 50\n"
+        },
+        {
+            "id": 10,
+            "time_out": 4,
+            "input": "6\nA\n1\n40\n10\nB\n2\n40\n9\nC\n3\n40\n8\nD\n4\n40\n7\nE\n5\n40\n6\nF123456789123456789\n6\n40\n5\n2\n",
+            "output": "Enter the number of students: Student 1\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 2\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 3\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 4\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 5\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nStudent 6\nEnter Student Name, Roll no, Marks of Subject 1, and Marks of Subject 2:\nThis program supports TWO operations:\n\t1. Count the number of names starting with a given character,\n\t2. Sort the students based on descending order of total marks.\n\nChoose an operation (1 or 2): 1 2 3 4 5 6 \n1 2 3 4 5 6 \n1 2 3 4 5 6 \n1 2 3 4 5 6 \n1 2 3 4 5 6 \nA B C D E F123456789123456789 \nThe highest marks: 50\n"
+        }
+    ]
+}
