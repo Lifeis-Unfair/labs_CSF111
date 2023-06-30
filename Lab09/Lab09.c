@@ -3,13 +3,7 @@
 #include<string.h>
 #include<ctype.h>
 
-typedef struct Employee
-{
-  int id;
-  int salary;
-  char fav_quote[50];
-  int sick_leaves[6];
-}emp;
+
 
 /*
 Displays all the information of the employee.
